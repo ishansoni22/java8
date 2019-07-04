@@ -1,12 +1,19 @@
 package com.ishan.java8.utils;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Person {
 
     private Long id;
 
     private String name;
 
+    private int age;
+
     private String occupation;
+
+    private List<String> hobbies = new ArrayList<>();
 
     public Long getId() {
         return id;
@@ -24,6 +31,14 @@ public class Person {
         this.name = name;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public String getOccupation() {
         return occupation;
     }
@@ -32,11 +47,20 @@ public class Person {
         this.occupation = occupation;
     }
 
+    public List<String> getHobbies() {
+        return hobbies;
+    }
+
+    public void setHobbies(List<String> hobbies) {
+        this.hobbies = hobbies;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", age=" + age +
                 ", occupation='" + occupation + '\'' +
                 '}';
     }

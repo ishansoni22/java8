@@ -13,7 +13,7 @@ import java.util.function.Predicate;
  *
  * 3. Predicate
  * {@link java.util.function.Predicate}
- * The single abstract method (test) in the Predicate interface takes in
+ * The single abstract method [boolean test(T t)] in the Predicate interface takes in
  * an object and returns a boolean.
  *
  */

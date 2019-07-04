@@ -7,7 +7,7 @@ package com.ishan.java8.functional.interfaces;
  *
  * 1. Supplier
  * {@link java.util.function.Supplier}
- * The single abstract method in the Supplier interface does not take in
+ * The single abstract method in the Supplier interface [T get()] does not take in
  * any object and returns a new Object
  *
  *

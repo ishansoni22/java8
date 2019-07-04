@@ -11,9 +11,8 @@ import java.util.function.Consumer;
  *
  * 2. Consumer
  * {@link java.util.function.Consumer}
- * The single abstract method (accept) in the Consumer interface takes in
+ * The single abstract method [void accept(T t)] in the Consumer interface takes in
  * an object and does not return anything
- *
  *
  */
 public class ConsumerInterface

@@ -12,7 +12,7 @@ import java.util.List;
  *
  * 4. Function
  * {@link java.util.function.Function}
- * The single abstract method (apply) in the Function interface takes in
+ * The single abstract method [R apply(T t)] in the Function interface takes in
  * an object and returns an object
  *
  *
