@@ -42,7 +42,7 @@ public class ConsumerInterface
          * the default andThen method on Consumer signature : Takes in another Consumer and returns
          * a new Consumer that combines the 2 consumers
          * andThen(Consumer other) {
-         *   return (T t) -> { accept(t); other.accept(t}
+         *   return (T t) -> { accept(t); other.accept(t) }
          * }
          *
          */
