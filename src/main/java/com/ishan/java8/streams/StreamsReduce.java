@@ -43,9 +43,7 @@ import java.util.stream.Collectors;
 public class StreamsReduce
 {
     public static void main(String[] args) {
-        /**
-         * Print people who have age < 20 or have Engineer as occupation
-         */
+        
         DataUtils du = new DataUtils();
         List<Person> people = du.getPersonData();
 
